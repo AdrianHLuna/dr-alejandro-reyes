@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #633184; /* Brand Purple */
+  --color-primary-foreground: #ffffff;
+  --color-accent: #9675aa; /* Brand Accent Lavender */
+  --color-accent-foreground: #2c182d;
+  --color-background: #fcfbfe; /* Soft Lavender White background */
+  --color-foreground: #2c182d; /* Dark Violet foreground */
+  
+  --color-muted: #8c82bd; /* Brand slate-violet */
+  --color-border: #d9d5e9; /* Soft border tint */
+  --color-warm-light: #f2eff8; /* Soft background tint */
+  --color-plum-light: rgba(99, 49, 132, 0.04);
+}
+
+@layer base {
+  :root {
+    --background: #fcfbfe;
+    --foreground: #2c182d;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, .font-serif-elegant {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+/* Graceful Fade and Bloom Keyframes */
+@keyframes bloom-fade {
+  0% {
+    opacity: 0;
+    transform: scale(0.97) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.bloom-animation {
+  animation: bloom-fade 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Glassmorphism custom classes with Brand Purple accents */
+.glass-pill-nav {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(99, 49, 132, 0.08);
+}
+
+.glass-card-plum {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(99, 49, 132, 0.06);
+}
+
+.glass-card-plum-hover:hover {
+  border-color: rgba(99, 49, 132, 0.2);
+  box-shadow: 0 20px 40px -15px rgba(99, 49, 132, 0.06);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fcfbfe;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 49, 132, 0.15);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 49, 132, 0.3);
+}
+
+/* Organic background animations */
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(2deg);
+  }
+}
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse-delicate {
+  0%, 100% {
+    opacity: 0.15;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    transform: scale(1.04);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 8s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 30s linear infinite;
+}
+
+.animate-pulse-delicate {
+  animation: pulse-delicate 6s ease-in-out infinite;
+}
+
+/* Unique Organic Cards */
+.organic-card {
+  border-radius: 3rem 1rem 3rem 1rem;
+  border: 1px solid rgba(99, 49, 132, 0.06);
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.organic-card:hover {
+  border-radius: 1rem 3rem 1rem 3rem;
+  border-color: rgba(99, 49, 132, 0.2);
+  box-shadow: 0 30px 60px -15px rgba(99, 49, 132, 0.08);
+  transform: translateY(-6px);
+}
+
