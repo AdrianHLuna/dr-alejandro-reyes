@@ -1,9 +1,28 @@
 # 🖼️ Image Prompts — Dr. Jose Alejandro Reyes Torres | Ginecología, Obstetricia y Fertilidad
 
-> **Estilo Visual:** Fotorrealismo médico de alta gama y diseño clínico premium.
-> **Tono:** Empático, profesional y técnicamente preciso.
+> **Rol:** Experto en generación de imágenes para marketing médico premium.
+> **Tono:** Empático, esperanzador y de alta precisión clínica.
+> **Estilo:** Fotorrealismo puro.
+> 
+> **PROHIBIDO:** Estética futurista, ciencia ficción, hologramas, neones o interfaces digitales tipo HUD. Las anatomías deben parecer ilustraciones médicas de libros de texto de ultra-lujo o fotografías clínicas reales.
+> 
+> **Limpieza Digital:** Cero texto, letras, firmas o logotipos.
+> **Iluminación:** Luz blanca clínica brillante o luz natural suave de estudio. Sin efectos de "brillo digital".
+> **Restricción:** Sin sangre ni contenido gráfico alarmante. Todo higienizado y seguro.
 > **Formato:** WEBP 16:9 · `--ar 16:9 --v 6.0`
-> **Restricciones:** Sin elementos futuristas, hologramas, interfaces digitales (HUD) o neones. Cero texto, firmas o marcas de agua. Sin contenido sangriento o gráfico alarmante.
+
+---
+
+## 🎭 Prompt de Coherencia Visual (Sesión Inicial)
+
+Al iniciar tu sesión de generación en Midjourney, DALL-E 3 u otra herramienta de IA, introduce primero este prompt de contexto para definir el rol y estilo:
+
+```
+All images in this set must follow a consistent luxury medical photorealism style.
+No sci-fi, no holograms, no digital UI. Clean white or neutral clinical environments.
+Natural tissue and instrument colors. Deep Purple (#633184) and Soft Lavender (#9675aa) as accents.
+8k resolution, unreal engine 5 photorealism, medical textbook quality.
+```
 
 ---
 
@@ -21,9 +40,9 @@ Negative Prompt: hologram, sci-fi, futuristic, spaceship, cyberpunk, neon, glowi
 
 ---
 
-## 🔬 Enfermedades (`/public/images/diseases/`)
+## 🔬 Enfermedades (`/public/enfermedades/`)
 
-### `sop.webp`
+### `ovario-poliquistico.png`
 * **Condición:** Síndrome de Ovario Poliquístico (SOP)  
 * **Prompt:**
   ```
@@ -36,7 +55,7 @@ Negative Prompt: hologram, sci-fi, futuristic, spaceship, cyberpunk, neon, glowi
   Negative Prompt: hologram, sci-fi, futuristic, cyberpunk, neon, glowing digital UI, hud, user interface, text, words, letters, watermark, signature, blood.
   ```
 
-### `endometriosis.webp`
+### `endometriosis.png`
 * **Condición:** Endometriosis Pélvica  
 * **Prompt:**
   ```
@@ -49,7 +68,7 @@ Negative Prompt: hologram, sci-fi, futuristic, spaceship, cyberpunk, neon, glowi
   Negative Prompt: hologram, sci-fi, futuristic, cyberpunk, neon, glowing digital UI, hud, user interface, text, words, letters, watermark, signature, blood, scary.
   ```
 
-### `miomas.webp`
+### `miomas.png`
 * **Condición:** Miomatosis Uterina  
 * **Prompt:**
   ```
@@ -62,7 +81,7 @@ Negative Prompt: hologram, sci-fi, futuristic, spaceship, cyberpunk, neon, glowi
   Negative Prompt: hologram, sci-fi, futuristic, cyberpunk, neon, glowing digital UI, hud, user interface, text, words, letters, watermark, signature, blood.
   ```
 
-### `infertilidad.webp`
+### `infertilidad.png`
 * **Condición:** Infertilidad de la Pareja  
 * **Prompt:**
   ```
@@ -75,7 +94,7 @@ Negative Prompt: hologram, sci-fi, futuristic, spaceship, cyberpunk, neon, glowi
   Negative Prompt: text, watermark, signature, cartoon, 2d, illustration, glowing hud, user interface.
   ```
 
-### `trastornos-menstruales.webp`
+### `transtornos-menstruales.png`
 * **Condición:** Trastornos de la Menstruación  
 * **Prompt:**
   ```
@@ -88,7 +107,7 @@ Negative Prompt: hologram, sci-fi, futuristic, spaceship, cyberpunk, neon, glowi
   Negative Prompt: hologram, sci-fi, futuristic, spaceship, cyberpunk, neon, user interface, text, words, letters, watermark, signature, blood.
   ```
 
-### `menopausia.webp`
+### `menopausia.png`
 * **Condición:** Menopausia y Climaterio  
 * **Prompt:**
   ```
@@ -100,7 +119,7 @@ Negative Prompt: hologram, sci-fi, futuristic, spaceship, cyberpunk, neon, glowi
   Negative Prompt: text, watermark, signature, blood.
   ```
 
-### `anovulacion.webp`
+### `anovulacion.png`
 * **Condición:** Anovulación  
 * **Prompt:**
   ```
@@ -110,6 +129,45 @@ Negative Prompt: hologram, sci-fi, futuristic, spaceship, cyberpunk, neon, glowi
   Composition: Macro scientific view.
   Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
   Negative Prompt: text, watermark, signature, blood.
+  ```
+
+### `sindrome-metabolico-ovario.png`
+* **Condición:** Síndrome Metabólico Ovárico Poliendocrino  
+* **Prompt:**
+  ```
+  Scientific 3D medical illustration representing the link between ovarian function and metabolic syndrome. A detailed diagram showing a human ovary with multiple follicle cysts on one side, and on the other, symbolic representations of glucose molecules and insulin receptors on cell membranes.
+  Lighting: Clean, bright medical studio lighting, soft shadows.
+  Color Palette: Deep Purple (#633184) highlights, Soft Lavender (#9675aa), clinical white, warm ivory accents.
+  Composition: Symmetrical medical drawing layout, informative diagram.
+  Mood: Scientific, educational.
+  Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: hologram, sci-fi, futuristic, cyberpunk, neon, glowing digital UI, hud, user interface, text, words, letters, watermark, signature, blood.
+  ```
+
+### `infeccion-vph.png`
+* **Condición:** Infección por Virus del Papiloma Humano (VPH)  
+* **Prompt:**
+  ```
+  A high-end microscopic scientific visualization of the Human Papillomavirus (VPH/HPV) showing multiple spherical, non-enveloped viral capsids with distinct icosahedral symmetry interacting with healthy epithelial cells.
+  Lighting: Clinical backlighting, high-contrast biological glow.
+  Color Palette: Soft Lavender (#9675aa) viral shells, Deep Purple (#633184) cellular structures, clinical dark obsidian background.
+  Composition: Extreme macro microscopic close-up.
+  Mood: Educational, precise.
+  Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: text, watermark, signature, skin lesions, graphic body parts, blood.
+  ```
+
+### `pubertad-menarquia.png`
+* **Condición:** Pubertad y Alteraciones del Inicio de la Menstruación  
+* **Prompt:**
+  ```
+  An elegant, clean scientific infographic of the human female endocrine system, focusing on the activation of the hypothalamus-pituitary-ovarian axis during puberty. Delicate light rays represent hormone signals traveling from the brain to the reproductive system.
+  Lighting: Bright, clean, soft biological lighting.
+  Color Palette: Deep Purple (#633184) pathway lines, Soft Lavender (#9675aa), Slate Violet (#8c82bd), clinical white background.
+  Composition: Symmetrical anatomical diagram.
+  Mood: Informative, clear.
+  Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: sci-fi, futuristic, spaceship, cyberpunk, neon, glowing digital UI, hud, user interface, text, words, letters, watermark, signature, blood.
   ```
 
 ---
@@ -276,3 +334,89 @@ Negative Prompt: hologram, sci-fi, futuristic, spaceship, cyberpunk, neon, glowi
   Suffixes: clinical photography, 8k, photorealistic --ar 16:9 --v 6.0
   Negative Prompt: text, numbers, watermark, blood, sad people.
   ```
+
+### `sangrado-inicio-menstruacion.webp`
+* **Síntoma:** Sangrado Abundante al Inicio de la Menstruación  
+* **Prompt:**
+  ```
+  A young woman sitting on a cozy light-colored sofa, holding a warm cup of tea close to her abdomen with a comforting and soft expression. The setting is clean and warm, expressing gentle personal care.
+  Lighting: Soft natural daylight from a window, subtle shadows.
+  Color Palette: Soft Lavender (#9675aa) clothing, warm cream and light grey tones, gentle hints of Deep Purple (#633184).
+  Composition: Medium shot, warm and respectful depth of field.
+  Mood: Reassuring, empathetic.
+  Suffixes: high-fidelity clinical photography, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: blood, crying, scary, nudity, medical tools, hospital bed.
+  ```
+
+### `amenorrea.webp`
+* **Síntoma:** Ausencia de Menstruación (Amenorrea)  
+* **Prompt:**
+  ```
+  An elegant, clean calendar resting on a premium wooden desk. A stethoscope and a modern pen lie on the side. One of the months on the calendar has no markings, symbolizing the passage of time.
+  Lighting: Bright natural daylight, soft shadows.
+  Color Palette: Clean white, Soft Lavender (#9675aa) highlights, clinical wood tones.
+  Composition: Focused close-up, shallow depth of field.
+  Mood: Calm, informative, professional.
+  Suffixes: high-fidelity photography, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: hand, writing, person, text, words, letters, watermark, signature.
+  ```
+
+### `flujo-vaginal.webp`
+* **Síntoma:** Flujo Vaginal Anormal  
+* **Prompt:**
+  ```
+  A close-up clinical photograph of a doctor's modern consultation desk. A premium informational chart showing vaginal health and flora balance is displayed next to a stethoscope.
+  Lighting: Bright natural daylight, clean shadows.
+  Color Palette: Soft Lavender (#9675aa), Deep Purple (#633184) details, clean white desk surface.
+  Composition: Top-down still life layout.
+  Mood: Educational, professional.
+  Suffixes: high-fidelity photography, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: people, hand, watermark, signature, text, words, vaginal discharge.
+  ```
+
+### `dificultad-concebir.webp`
+* **Síntoma:** Dificultad para Concebir  
+* **Prompt:**
+  ```
+  A professional close-up of a premium clinical tablet screen showing a detailed reproductive biology diagram of fertilization. A stethoscope and a pen are resting on the side.
+  Lighting: Soft, clean clinical lighting.
+  Color Palette: Clean whites, Slate Violet (#8c82bd), Deep Purple (#633184) screen hues.
+  Composition: Focused product macro shot of the medical tablet.
+  Mood: Professional, reassuring.
+  Suffixes: high-fidelity clinical photography, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: people, doctors, hands, cartoon, 3d render.
+  ```
+
+---
+
+## 📋 Resumen de Archivos
+
+| Categoría | Ruta de Archivo Destino | Nombre de la Entidad / Condición |
+| :--- | :--- | :--- |
+| **Enfermedades** | `/public/enfermedades/ovario-poliquistico.png` | Síndrome de Ovario Poliquístico (SOP) |
+| **Enfermedades** | `/public/enfermedades/endometriosis.png` | Endometriosis Pélvica |
+| **Enfermedades** | `/public/enfermedades/miomas.png` | Miomatosis Uterina |
+| **Enfermedades** | `/public/enfermedades/infertilidad.png` | Infertilidad de la Pareja |
+| **Enfermedades** | `/public/enfermedades/transtornos-menstruales.png` | Trastornos de la Menstruación |
+| **Enfermedades** | `/public/enfermedades/menopausia.png` | Menopausia y Climaterio |
+| **Enfermedades** | `/public/enfermedades/anovulacion.png` | Anovulación |
+| **Enfermedades** | `/public/enfermedades/sindrome-metabolico-ovario.png` | Síndrome Metabólico Ovárico Poliendocrino |
+| **Enfermedades** | `/public/enfermedades/infeccion-vph.png` | Infección por Virus del Papiloma Humano (VPH) |
+| **Enfermedades** | `/public/enfermedades/pubertad-menarquia.png` | Pubertad y Alteraciones del Inicio de la Menstruación |
+| **Servicios** | `/public/images/services/control-prenatal.webp` | Consulta Obstétrica y Rastreo Ultrasonográfico |
+| **Servicios** | `/public/images/services/menopausia.webp` | Consulta de Ginecología Endocrina y Menopausia |
+| **Servicios** | `/public/images/services/colposcopia.webp` | Consulta de Colposcopia y Citología Cervical |
+| **Servicios** | `/public/images/services/fertilidad.webp` | Consulta de Fertilidad y Biología de la Reproducción |
+| **Servicios** | `/public/images/services/control-prenatal-alto-riesgo.webp` | Control Prenatal de Alto Riesgo |
+| **Servicios** | `/public/images/services/parto-cesarea.webp` | Atención de Parto y Cesárea |
+| **Servicios** | `/public/images/services/histeroscopia.webp` | Cirugía Ginecológica de Mínima Invasión |
+| **Síntomas** | `/public/images/symptoms/sangrado.webp` | Sangrado Uterino Anormal |
+| **Síntomas** | `/public/images/symptoms/dolor-pelvico.webp` | Dolor Pélvico y Menstrual |
+| **Síntomas** | `/public/images/symptoms/urgencias-embarazo.webp` | Sangrado y Urgencias en el Embarazo |
+| **Síntomas** | `/public/images/symptoms/verrugas-genitales.webp` | Verrugas Genitales y Lesiones por VPH |
+| **Síntomas** | `/public/images/symptoms/infeccion-vaginal.webp` | Infecciones Vaginales Recurrentes |
+| **Síntomas** | `/public/images/symptoms/amenaza-aborto.webp` | Amenaza de Aborto |
+| **Síntomas** | `/public/images/symptoms/sangrado-inicio-menstruacion.webp` | Sangrado Abundante al Inicio de la Menstruación |
+| **Síntomas** | `/public/images/symptoms/amenorrea.webp` | Ausencia de Menstruación (Amenorrea) |
+| **Síntomas** | `/public/images/symptoms/flujo-vaginal.webp` | Flujo Vaginal Anormal |
+| **Síntomas** | `/public/images/symptoms/dificultad-concebir.webp` | Dificultad para Concebir |

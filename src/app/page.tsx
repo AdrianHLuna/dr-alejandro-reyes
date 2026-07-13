@@ -9,6 +9,7 @@ import StructuredData from "@/components/StructuredData";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import ClinicalImage from "@/components/ClinicalImage";
 
 export default function Home() {
   const whatsappUrl = `https://wa.me/${doctor.whatsapp.replace(/\D/g, "")}`;
@@ -312,10 +313,19 @@ export default function Home() {
                     className={`flex flex-col h-full group p-8 justify-between ${cardShape}`}
                   >
                     <div className="space-y-4">
-                      <div className="w-10 h-10 bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-300 rounded-full">
-                        <FaNotesMedical size={16} />
+                      <div className="w-full aspect-[16/10] relative rounded-[1.5rem] overflow-hidden bg-primary/5 border border-border/50">
+                        <ClinicalImage 
+                          src={disease.image} 
+                          alt={disease.name}
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
                       </div>
-                      <h3 className="text-xl font-serif-elegant font-bold text-foreground group-hover:text-primary transition-colors duration-300">{disease.name}</h3>
+                      <div className="flex items-start gap-3">
+                        <div className="w-8 h-8 mt-1 bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-300 rounded-full flex-shrink-0">
+                          <FaNotesMedical size={12} />
+                        </div>
+                        <h3 className="text-xl font-serif-elegant font-bold text-foreground group-hover:text-primary transition-colors duration-300 line-clamp-2">{disease.name}</h3>
+                      </div>
                       <p className="text-muted text-sm font-light leading-relaxed line-clamp-3">{disease.description}</p>
                     </div>
                     <div className="pt-6 border-t border-border/60 mt-6 flex items-center justify-between text-[10px] font-bold uppercase tracking-widest text-accent group-hover:text-primary transition-colors">

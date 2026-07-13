@@ -17,7 +17,7 @@ export const diseases: MedicalCondition[] = [
       { question: "¿Se cura el Síndrome de Ovario Poliquístico?", answer: "El SOP se controla, no se cura de forma definitiva, ya que tiene un componente genético y metabólico. Sin embargo, un manejo adecuado puede eliminar todos los síntomas y riesgos asociados." },
       { question: "¿Es obligatorio tomar anticonceptivos si tengo SOP?", answer: "No. Los anticonceptivos ayudan a regular los ciclos y reducir los andrógenos, pero si la paciente está buscando embarazo o prefiere otras opciones, existen alternativas como sensibilizadores a la insulina y fitoterapia." }
     ],
-    image: "/images/diseases/sop.webp",
+    image: "/enfermedades/ovario-poliquistico.png",
     seo: {
       title: "Tratamiento de Síndrome de Ovario Poliquístico (SOP) Ixtlahuaca",
       description: "Manejo médico integral para SOP, control de hirsutismo y problemas de fertilidad con el Dr. Jose Alejandro Reyes Torres en Ixtlahuaca de Rayón.",
@@ -40,7 +40,7 @@ export const diseases: MedicalCondition[] = [
       { question: "¿La endometriosis siempre causa infertilidad?", answer: "No siempre. Se estima que entre el 30% y el 50% de las mujeres con endometriosis experimentan dificultades para embarazarse, pero existen opciones médicas, quirúrgicas y reproductivas para lograrlo." },
       { question: "¿Cómo se diagnostica con certeza?", answer: "El estándar de oro para el diagnóstico definitivo es la laparoscopia con biopsia. Sin embargo, un ultrasonido especializado o resonancia magnética pueden identificar quistes ováricos y adherencias sospechosas." }
     ],
-    image: "/images/diseases/endometriosis.webp",
+    image: "/enfermedades/endometriosis.png",
     seo: {
       title: "Especialista en Endometriosis en Ixtlahuaca | Dr. Jose Alejandro Reyes",
       description: "Diagnóstico y tratamiento avanzado para dolor pélvico crónico y endometriosis mediante laparoscopia con el Dr. Jose Alejandro Reyes Torres.",
@@ -63,7 +63,7 @@ export const diseases: MedicalCondition[] = [
       { question: "¿Si tengo miomas me tienen que retirar la matriz?", answer: "No. Actualmente existen técnicas conservadoras como la miomectomía laparoscópica que retira únicamente los miomas, preservando el útero y la capacidad de lograr un embarazo futuro." },
       { question: "¿Los miomas impiden el embarazo?", answer: "Depende de su localización. Los miomas submucosos (dentro de la cavidad uterina) son los que más interfieren con la implantación del embrión y deben ser retirados antes de buscar gestación." }
     ],
-    image: "/images/diseases/miomas.webp",
+    image: "/enfermedades/miomas.png",
     seo: {
       title: "Cirugía de Miomas Uterinos en Ixtlahuaca | Dr. Jose Alejandro Reyes",
       description: "Preservación del útero mediante miomectomía laparoscópica para el tratamiento de miomas. Agenda tu cita con el Dr. Jose Alejandro Reyes Torres.",
@@ -86,7 +86,7 @@ export const diseases: MedicalCondition[] = [
       { question: "¿La infertilidad es siempre un problema de la mujer?", answer: "No. En aproximadamente un 40% de los casos el factor es exclusivamente femenino, en otro 40% es masculino y el 20% restante se debe a factores mixtos o causas inexplicadas. Por ello, el diagnóstico siempre debe realizarse en pareja." },
       { question: "¿Qué prubas iniciales se solicitan a la pareja?", answer: "Para la mujer, se suele pedir un perfil hormonal, un ultrasonido ginecológico y una histerosalpingografía (para revisar las trompas). Para el varón, la prueba fundamental es un espermatobioscopio directo (análisis de semen)." }
     ],
-    image: "/images/diseases/infertilidad.webp",
+    image: "/enfermedades/infertilidad.png",
     seo: {
       title: "Especialista en Infertilidad en Ixtlahuaca | Dr. Jose Alejandro Reyes",
       description: "Diagnóstico integral y tratamientos de fertilidad para la pareja con el Dr. Jose Alejandro Reyes Torres en Ixtlahuaca de Rayón.",
@@ -109,7 +109,7 @@ export const diseases: MedicalCondition[] = [
       { question: "¿Qué es la amenorrea secundaria?", answer: "Es la ausencia de menstruación durante 3 o más meses consecutivos en una mujer que previamente menstruaba con regularidad. La causa más común es el embarazo, pero también puede deberse a problemas de tiroides, SOP o estrés." },
       { question: "¿Cómo influye el peso corporal en la menstruación?", answer: "Tanto el bajo peso extremo (que reduce la producción de estrógenos) como el sobrepeso y la obesidad (que pueden causar exceso de estrógenos y resistencia a la insulina) alteran la ovulación y provocan trastornos menstruales." }
     ],
-    image: "/images/diseases/trastornos-menstruales.webp",
+    image: "/enfermedades/transtornos-menstruales.png",
     seo: {
       title: "Trastornos Menstruales en Ixtlahuaca | Dr. Jose Alejandro Reyes",
       description: "Tratamiento de amenorrea, periodos irregulares y desequilibrio hormonal con el Dr. Jose Alejandro Reyes Torres en Ixtlahuaca.",
@@ -132,7 +132,7 @@ export const diseases: MedicalCondition[] = [
       { question: "¿Cuánto dura el climaterio?", answer: "La transición climatérica puede durar de 4 a 8 años. Comienza con cambios en la regularidad de las menstruaciones (perimenopausia) y se extiende hasta unos años después de la menopausia." },
       { question: "¿Cómo se previene la osteoporosis en esta etapa?", answer: "Se previene mediante la ingesta adecuada de calcio y vitamina D, ejercicio de impacto regular (como caminar o pesas) para fortalecer los huesos, evitar el tabaco y, en pacientes de riesgo, utilizar terapia hormonal o bifosfonatos." }
     ],
-    image: "/images/diseases/menopausia.webp",
+    image: "/enfermedades/menopausia.png",
     seo: {
       title: "Especialista en Menopausia en Ixtlahuaca | Dr. Jose Alejandro Reyes",
       description: "Manejo integral del climaterio, bochornos, sequedad vaginal y osteoporosis con el Dr. Jose Alejandro Reyes Torres.",
@@ -155,11 +155,80 @@ export const diseases: MedicalCondition[] = [
       { question: "¿Cómo sé si estoy ovulando?", answer: "Existen métodos indirectos como la medición de la temperatura basal, pruebas de LH en orina (kits de ovulación) y la observación del moco cervical. La forma más precisa es el seguimiento ultrasonográfico folicular realizado por el ginecólogo." },
       { question: "¿Cómo se trata la anovulación en pacientes que desean un bebé?", answer: "El tratamiento se basa en inducir la ovulación utilizando medicamentos orales o gonadotropinas bajo estrecho seguimiento ultrasonográfico para controlar el crecimiento de los folículos y programar el coito o la inseminación." }
     ],
-    image: "/images/diseases/anovulacion.webp",
+    image: "/enfermedades/anovulacion.png",
     seo: {
       title: "Tratamiento de Anovulación en Ixtlahuaca | Dr. Jose Alejandro Reyes",
       description: "Diagnóstico de disfunción ovulatoria e inducción folicular para infertilidad por el Dr. Jose Alejandro Reyes Torres.",
       keywords: ["Inducción de ovulación letrozol", "Cómo saber si ovulo ginecólogo", "Especialista en fertilidad femenina Estado de México"],
+    }
+  },
+  {
+    id: "enf-008",
+    slug: "sindrome-metabolico-ovario-poliendocrino",
+    name: "Síndrome Metabólico Ovárico Poliendocrino",
+    technicalName: "Disfunción Metabólica Ovárica y Endocrina",
+    description: "Una afección compleja que asocia la disfunción ovulatoria con resistencia a la insulina severa, obesidad visceral, dislipidemia y riesgo cardiovascular elevado, requiriendo un abordaje ginecológico y metabólico integral.",
+    symptoms: ["Aumento excesivo de peso o dificultad para perderlo", "Acantosis nigricans (manchas oscuras en cuello y axilas)", "Ciclos menstruales muy espaciados o ausentes"],
+    causes: ["Resistencia severa a la insulina", "Predisposición genética al síndrome metabólico", "Disfunción en la secreción y acción de las gonadotropinas"],
+    riskFactors: ["Antecedentes familiares de diabetes mellitus tipo 2", "Obesidad de predominio abdominal", "Sedentarismo y dieta alta en azúcares refinados"],
+    complications: ["Diabetes tipo 2 y síndrome metabólico", "Hipertensión arterial y dislipidemia", "Infertilidad de origen ovulatorio y riesgo de hiperplasia endometrial"],
+    treatments: ["Manejo nutricional personalizado de bajo índice glucémico", "Sensibilizadores a la insulina y reguladores metabólicos", "Inductores de ovulación y control del hiperandrogenismo"],
+    faqs: [
+      { question: "¿Qué diferencia hay entre el SOP y el Síndrome Metabólico Ovárico?", answer: "El Síndrome Metabólico Ovárico es una manifestación más amplia que no solo afecta los ovarios (SOP), sino que involucra alteraciones metabólicas sistémicas graves como resistencia a la insulina, dislipidemia, riesgo cardiovascular y obesidad visceral." },
+      { question: "¿Cómo se detecta la resistencia a la insulina?", answer: "Se evalúa mediante pruebas de laboratorio que miden la glucosa e insulina en ayuno (cálculo del índice HOMA-IR), así como curvas de tolerancia a la glucosa oral con medición de insulina." },
+      { question: "¿Se puede revertir esta condición?", answer: "Sí, con un cambio de estilo de vida dirigido (alimentación, ejercicio de fuerza) y el apoyo de medicamentos moduladores de insulina, es posible normalizar los parámetros metabólicos y restablecer la ovulación." }
+    ],
+    image: "/enfermedades/sindrome-metabolico-ovario.png",
+    seo: {
+      title: "Síndrome Metabólico Ovárico Ixtlahuaca | Dr. Jose Alejandro",
+      description: "Tratamiento especializado de resistencia a la insulina y disfunción ovulatoria en el Síndrome Metabólico Ovárico con el Dr. Jose Alejandro Reyes Torres.",
+      keywords: ["Síndrome metabólico ovario", "Tratamiento resistencia insulina Ixtlahuaca", "Ginecólogo endocrinólogo Estado de México"],
+    }
+  },
+  {
+    id: "enf-009",
+    slug: "infeccion-por-vph",
+    name: "Infección por Virus del Papiloma Humano (VPH)",
+    technicalName: "Infección por Papilomavirus Humano Cervicovaginal",
+    description: "Una infección de transmisión sexual muy común que puede causar verrugas genitales o dar origen a lesiones precursoras de cáncer en el cuello uterino, vulva o vagina si no se diagnostica y trata a tiempo.",
+    symptoms: ["Presencia de verrugas o condilomas en la zona genital", "Lesiones microscópicas detectables únicamente por colposcopia", "Flujo vaginal persistente o sangrado inusual postcoital"],
+    causes: ["Contacto directo de piel o mucosas durante las relaciones sexuales", "Infección por serotipos de VPH de bajo riesgo (ej. 6, 11) o alto riesgo (ej. 16, 18)"],
+    riskFactors: ["Relaciones sexuales no protegidas", "Inicio temprano de la vida sexual", "Sistema inmunológico debilitado o tabaquismo activo"],
+    complications: ["Desarrollo de lesiones intraepiteliales de bajo y alto grado (LEIBG/LEIEG)", "Cáncer cérvico-uterino", "Diseminación o crecimiento de verrugas genitales gigantes"],
+    treatments: ["Eliminación de verrugas mediante electrocirugía, crioterapia o láser", "Vacunación preventiva contra cepas oncogénicas de VPH", "Vigilancia estrecha mediante citología y colposcopia periódica"],
+    faqs: [
+      { question: "¿Tener VPH significa que tendré cáncer?", answer: "No. La gran mayoría de las infecciones por VPH se autolimitan gracias al sistema inmune. Sin embargo, los tipos de alto riesgo pueden causar cambios celulares que, si no se tratan durante años, pueden progresar a cáncer." },
+      { question: "¿Sirve la vacuna si ya inicié mi vida sexual o tengo VPH?", answer: "Sí. La vacuna sigue siendo altamente recomendada porque protege contra múltiples cepas de VPH a las que posiblemente aún no hayas estado expuesta, y ayuda a prevenir recurrencias." },
+      { question: "¿Cómo se eliminan las verrugas genitales?", answer: "Se pueden tratar en consultorio mediante la aplicación de agentes químicos de precisión, crioterapia (congelación), o electrofulguración bajo anestesia local, logrando una curación estética y funcional." }
+    ],
+    image: "/enfermedades/infeccion-vph.png",
+    seo: {
+      title: "Tratamiento de VPH en Ixtlahuaca | Dr. Jose Alejandro Reyes",
+      description: "Detección oportuna de VPH, colposcopia y eliminación de verrugas genitales en Ixtlahuaca. Agenda cita con el Dr. Jose Alejandro Reyes Torres.",
+      keywords: ["Tratamiento VPH Ixtlahuaca", "Eliminación de verrugas VPH costo", "Vacuna del papiloma humano precio"],
+    }
+  },
+  {
+    id: "enf-010",
+    slug: "pubertad-y-menarquia",
+    name: "Pubertad y Alteraciones del Inicio de la Menstruación",
+    technicalName: "Pubertad Patológica y Alteraciones de la Menarquia",
+    description: "Evaluación de los trastornos del desarrollo puberal y del inicio de los ciclos menstruales en adolescentes, incluyendo pubertad precoz, pubertad tardía, amenorrea primaria y periodos extremadamente irregulares en los primeros años.",
+    symptoms: ["Ausencia de menstruación a los 15 años (amenorrea primaria)", "Desarrollo de caracteres sexuales antes de los 8 años o ausencia de ellos a los 13", "Menstruaciones excesivamente abundantes o dolorosas en la adolescencia"],
+    causes: ["Inmadurez del eje hipotálamo-hipófisis-ovario", "Factores genéticos, nutricionales o de peso corporal", "Desequilibrios hormonales como hiperprolactinemia o problemas tiroideos"],
+    riskFactors: ["Antecedentes familiares de retraso constitucional del desarrollo", "Estrés físico severo, trastornos alimentarios o desnutrición", "Exposición a disruptores endocrinos"],
+    complications: ["Alteración en el crecimiento y talla final", "Pérdida de masa ósea por déficit estrogénico prolongado", "Ansiedad y afectación psicológica en la paciente joven"],
+    treatments: ["Consejería y educación sobre el ciclo menstrual", "Terapia de regulación hormonal de precisión en casos necesarios", "Monitoreo del desarrollo óseo, peso corporal y nutrición"],
+    faqs: [
+      { question: "¿Es normal que la menstruación sea irregular en los primeros años?", answer: "Sí. Durante los primeros 2 a 3 años después de la menarquia (primera regla), el eje hormonal que regula los ovarios es inmaduro, lo que puede provocar retrasos o ciclos anovulatorios frecuentes. Sin embargo, sangrados excesivamente abundantes deben ser valorados." },
+      { question: "¿A qué edad se debe tener la primera regla?", answer: "La edad promedio es entre los 11 y los 13 años. Si una adolescente llega a los 15 años sin haber menstruado, o si a los 13 años no muestra ningún signo de desarrollo mamario o vello pubico, se requiere una consulta de ginecología infanto-juvenil." },
+      { question: "¿Los anticonceptivos son la única opción para adolescentes irregulares?", answer: "No. Muchas veces solo se requiere educación nutricional, manejo de peso, suplementación o inductores transitorios de progesterona para regular el ciclo sin necesidad de anticonceptivos combinados." }
+    ],
+    image: "/enfermedades/pubertad-menarquia.png",
+    seo: {
+      title: "Ginecología Adolescente en Ixtlahuaca | Dr. Jose Alejandro",
+      description: "Consulta especializada para pubertad tardía, irregularidades en la primera menstruación y ginecología adolescente en Ixtlahuaca.",
+      keywords: ["Ginecólogo para adolescentes Ixtlahuaca", "Primera menstruación irregular", "Amenorrea primaria causas"],
     }
   }
 ];

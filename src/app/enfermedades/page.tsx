@@ -3,6 +3,7 @@ import { diseases } from "@/data/diseases";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/Animations";
 import { doctor } from "@/data/doctor";
+import ClinicalImage from "@/components/ClinicalImage";
 
 export const metadata = {
   title: `Padecimientos y Enfermedades Ginecológicas | ${doctor.title} ${doctor.name}`,
@@ -61,6 +62,13 @@ export default function EnfermedadesPage() {
                     <div className="flex justify-between items-center">
                       <span className="text-[10px] font-mono text-accent uppercase tracking-wider block">Ginecología Clínica</span>
                       <span className="text-[9px] font-mono text-muted/60">0{idx + 1}</span>
+                    </div>
+                    <div className="w-full aspect-[16/10] relative rounded-[1.5rem] overflow-hidden bg-primary/5 border border-border/50">
+                      <ClinicalImage 
+                        src={disease.image} 
+                        alt={disease.name}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
                     </div>
                     <h2 className="text-2xl font-serif-elegant font-bold text-primary group-hover:text-accent transition-colors duration-300">{disease.name}</h2>
                     <p className="text-muted text-sm font-light leading-relaxed line-clamp-4">{disease.description}</p>

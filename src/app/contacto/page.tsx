@@ -59,7 +59,7 @@ export default function ContactoPage() {
                 </div>
                 <div>
                   <h4 className="font-bold text-primary text-lg mb-1 transition-colors">Horarios de Atención</h4>
-                  <p className="text-muted leading-relaxed text-base whitespace-pre-line">{doctor.schedule.replace(" | ", "\n")}</p>
+                  <p className="text-muted leading-relaxed text-base whitespace-pre-line">{doctor.schedule.replace(/ \| /g, "\n")}</p>
                 </div>
               </StaggerItem>
 
