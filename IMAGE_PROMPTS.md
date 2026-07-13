@@ -267,124 +267,130 @@ Negative Prompt: hologram, sci-fi, futuristic, spaceship, cyberpunk, neon, glowi
 * **Síntoma:** Sangrado Uterino Anormal  
 * **Prompt:**
   ```
-  A woman holding her lower abdomen with both hands in a gesture of discomfort, sitting on a clean, light-colored bed. Soft, respectful, non-graphic depiction of pelvic concern. Focus on her hands.
-  Lighting: Soft natural bedroom light.
-  Color Palette: Warm whites, Soft Lavender (#9675aa) clothing, muted purple shadows.
-  Composition: Medium shot, focus on hands and abdomen.
-  Suffixes: high-fidelity photography, 8k, photorealistic --ar 16:9 --v 6.0
-  Negative Prompt: blood, nudity, cartoon, scary.
+  A close-up, respectful and high-fidelity photograph of a woman's hand holding a soft white tissue paper with a small, distinct spot of red blood, representing the moment of discovering abnormal bleeding. The scene is clean, clinical and realistic, conveying a quiet personal concern.
+  Lighting: Soft, natural bathroom lighting, clean highlights, gentle shadows.
+  Color Palette: Clean whites, soft lavender tiles in the blurred background, natural skin tones, deep red spot highlight.
+  Composition: Focused macro shot on the hand and tissue, shallow depth of field.
+  Mood: Concerned, realistic, medical, clean.
+  Suffixes: clinical photography, photorealistic textures, 8k, Hasselblad --ar 16:9 --v 6.0
+  Negative Prompt: nudity, scary, gory, huge wounds, splatters, messy blood, cartoon, 3d render, watermark, signature.
   ```
 
 ### `dolor-pelvico.webp`
 * **Síntoma:** Dolor Pélvico y Menstrual  
 * **Prompt:**
   ```
-  Anatomical 3D model of the human female pelvis, illustrating the nerve pathways of the pelvic region with soft, glowing purple highlights representing the area of discomfort. Symmetrical, educational and clean view.
-  Lighting: Soft dark backlighting.
-  Color Palette: Deep Purple (#633184) and Soft Lavender (#9675aa) glows, dark obsidian background.
-  Composition: Centered anatomical view.
-  Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-  Negative Prompt: text, watermark, signature, blood.
+  A close-up photograph of a woman sitting on the edge of a bed, holding her lower abdomen with both hands, expressing silent discomfort. The scene is soft and respectful, capturing the personal experience of pelvic cramps.
+  Lighting: Soft, warm indoor lighting, gentle shadows.
+  Color Palette: Cozy warm whites, Soft Lavender (#9675aa) clothing, natural skin tones.
+  Composition: Medium close-up focusing on her posture and hands.
+  Mood: Empathetic, realistic, personal.
+  Suffixes: high-fidelity clinical photography, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: nudity, scary, blood, cartoon, 3d render, watermark, signature.
   ```
 
-### `urgencias-embarazo.webp`
-* **Síntoma:** Sangrado y Urgencias en el Embarazo  
+### `dolor-coito.webp`
+* **Síntoma:** Dolor en las Relaciones Sexuales (Dispareunia)  
 * **Prompt:**
   ```
-  A close-up of a pregnant woman's hands resting on her round pregnant belly while she holds a phone, sitting in a modern hospital room. The image conveys clinical monitoring and care.
-  Lighting: Soft, clean hospital lighting.
-  Color Palette: Clinical whites, Soft Lavender (#9675aa) blanket, warm skin tones.
-  Composition: Focus on hands and belly.
-  Suffixes: clinical photography, 8k, photorealistic --ar 16:9 --v 6.0
-  Negative Prompt: blood, crying, scary.
+  A close-up photograph of a woman sitting on the edge of a bed, holding her partner's hand, looking down with a pensive and concerned expression. The atmosphere is warm, gentle and respectful, conveying the intimate worry and concern of experiencing pain during intercourse.
+  Lighting: Soft, warm, indirect bedroom lighting, gentle shadows.
+  Color Palette: Cozy warm whites, Soft Lavender (#9675aa) blankets, natural skin tones.
+  Composition: Focused medium shot on the woman's concerned face and the comforting touch of her partner's hand.
+  Mood: Concerned, intimate, realistic, gentle.
+  Suffixes: clinical photography, photorealistic textures, 8k, Hasselblad --ar 16:9 --v 6.0
+  Negative Prompt: nudity, graphic content, scary, blood, cartoon, 3d render, watermark, signature.
   ```
 
 ### `verrugas-genitales.webp`
 * **Síntoma:** Verrugas Genitales y VPH  
 * **Prompt:**
   ```
-  A scientific 3D illustration of the Human Papillomavirus (HPV) capsid at a molecular level. A spherical, symmetrical protein shell composed of capsomers, rendered with high scientific precision.
-  Lighting: Soft biological studio lighting, clean shadows.
-  Color Palette: Deep Purple (#633184) structure, Soft Lavender (#9675aa) highlight glows, clinical dark background.
-  Composition: Centered single virus particle macro.
-  Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-  Negative Prompt: text, watermark, signature, skin lesions, graphic body parts, blood.
+  A close-up photograph of a professional doctor pointing to a premium clinical tablet screen, showing an educational, non-graphic diagram of a stylized skin papilla/HPV lesion to a woman patient. The scene captures the patient-doctor interaction in a modern clinic, focusing on the tablet screen. The patient's face shows understanding. No genitals are visible.
+  Lighting: Bright, clean clinical lighting, soft shadows.
+  Color Palette: Clinical whites, Soft Lavender (#9675aa) highlights, Slate Violet (#8c82bd), natural skin tones.
+  Composition: Focused medium close-up of the hands, tablet, and doctor's explanation.
+  Mood: Educational, professional, reassuring.
+  Suffixes: clinical photography, photorealistic textures, 8k, Hasselblad --ar 16:9 --v 6.0
+  Negative Prompt: nudity, genitals, scary, blood, messy wounds, cartoon, 3d render, watermark, signature.
   ```
 
 ### `infeccion-vaginal.webp`
 * **Síntoma:** Infecciones Vaginales Recurrentes  
 * **Prompt:**
   ```
-  Scientific microscopic view of Lactobacillus acidophilus (healthy vaginal microbiota bacteria) interacting with minor Candida albicans yeast cells under a laboratory microscope. Clean, educational microbiology study.
-  Lighting: Microscopic backlighting, high contrast.
-  Color Palette: Soft Lavender (#9675aa) bacteria, Deep Purple (#633184) cells, clinical blue background.
-  Composition: Microscopic macro shot.
-  Suffixes: scientific photography, 8k, photorealistic textures --ar 16:9 --v 6.0
-  Negative Prompt: text, watermark, signature.
+  A woman sitting on a bathroom stool, looking down with a troubled and concerned expression, holding a fresh towel in her lap. The scene respectfully conveys the intimate discomfort, frustration and itchiness of a recurrent infection.
+  Lighting: Soft, clean bathroom lighting, warm highlights.
+  Color Palette: Clean whites, Soft Lavender (#9675aa) towel, soft grey bathroom background, natural skin tones.
+  Composition: Medium shot, focusing on her concerned face and posture.
+  Mood: Intimate, concerned, empathetic.
+  Suffixes: high-fidelity clinical photography, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: nudity, scary, blood, vaginal discharge, cartoon, 3d render, watermark, signature.
   ```
 
 ### `amenaza-aborto.webp`
 * **Síntoma:** Amenaza de Aborto  
 * **Prompt:**
   ```
-  A high-resolution clinical ultrasound image on a monitor, displaying a healthy gestational sac with an early embryo in the first trimester of pregnancy. The image represents professional diagnostic monitoring.
-  Lighting: Ambient dark room light, glowing monitor screen.
-  Color Palette: Monochromatic ultrasound tones (black, grey, white) with soft purple outlines.
-  Composition: Screen focus, professional.
-  Suffixes: clinical photography, 8k, photorealistic --ar 16:9 --v 6.0
-  Negative Prompt: text, numbers, watermark, blood, sad people.
+  A close-up photograph of a pregnant woman lying in a hospital bed, holding her partner's hand tightly. The expression on her face is worried and anxious, conveying the emotional distress and concern during a pregnancy threat.
+  Lighting: Soft, dim ambient clinical lighting.
+  Color Palette: Muted clinical blues and whites, Soft Lavender (#9675aa) hospital gown, warm skin tones.
+  Composition: Extreme close-up of the locked hands and a worried face in shallow focus.
+  Mood: Emotional, anxious, worried, hopeful.
+  Suffixes: high-fidelity clinical photography, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: blood, crying, scary, medical tools, cartoon, 3d render, watermark, signature.
   ```
 
-### `sangrado-inicio-menstruacion.webp`
-* **Síntoma:** Sangrado Abundante al Inicio de la Menstruación  
+### `bochornos.webp`
+* **Síntoma:** Bochornos y Sudoración Nocturna  
 * **Prompt:**
   ```
-  A young woman sitting on a cozy light-colored sofa, holding a warm cup of tea close to her abdomen with a comforting and soft expression. The setting is clean and warm, expressing gentle personal care.
-  Lighting: Soft natural daylight from a window, subtle shadows.
-  Color Palette: Soft Lavender (#9675aa) clothing, warm cream and light grey tones, gentle hints of Deep Purple (#633184).
-  Composition: Medium shot, warm and respectful depth of field.
-  Mood: Reassuring, empathetic.
-  Suffixes: high-fidelity clinical photography, 8k, photorealistic textures --ar 16:9 --v 6.0
-  Negative Prompt: blood, crying, scary, nudity, medical tools, hospital bed.
+  A close-up photograph of a middle-aged woman sitting up in bed at night, holding a glass of water, wiping her brow with a soft hand, expressing relief from a hot flash or night sweat. The bedroom setting is dim and calm, conveying comfort and empathy.
+  Lighting: Soft, warm, dim nightstand light, gentle shadows.
+  Color Palette: Cozy muted whites, soft lavender sheets in the background, natural warm skin tones.
+  Composition: Focused medium close-up, shallow depth of field.
+  Mood: Tired, relieving, calm, empathetic.
+  Suffixes: clinical photography, photorealistic textures, 8k, Hasselblad --ar 16:9 --v 6.0
+  Negative Prompt: nudity, scary, crying, blood, cartoon, 3d render, watermark, signature.
   ```
 
 ### `amenorrea.webp`
 * **Síntoma:** Ausencia de Menstruación (Amenorrea)  
 * **Prompt:**
   ```
-  An elegant, clean calendar resting on a premium wooden desk. A stethoscope and a modern pen lie on the side. One of the months on the calendar has no markings, symbolizing the passage of time.
-  Lighting: Bright natural daylight, soft shadows.
-  Color Palette: Clean white, Soft Lavender (#9675aa) highlights, clinical wood tones.
-  Composition: Focused close-up, shallow depth of field.
-  Mood: Calm, informative, professional.
+  A close-up of a woman's hands holding a smartphone, displaying a calendar or cycle tracking app with multiple unmarked dates in a row, expressing the realization of a missed period. Her face is slightly visible, showing a surprised or concerned look.
+  Lighting: Soft natural daylight.
+  Color Palette: Clean whites, Soft Lavender (#9675aa) phone case, warm skin tones, glowing screen.
+  Composition: Over-the-shoulder shot, focusing on the screen and hands.
+  Mood: Realization, concerned, modern.
   Suffixes: high-fidelity photography, 8k, photorealistic textures --ar 16:9 --v 6.0
-  Negative Prompt: hand, writing, person, text, words, letters, watermark, signature.
+  Negative Prompt: text (other than calendar numbers), watermark, signature, cartoon, 3d render.
   ```
 
 ### `flujo-vaginal.webp`
 * **Síntoma:** Flujo Vaginal Anormal  
 * **Prompt:**
   ```
-  A close-up clinical photograph of a doctor's modern consultation desk. A premium informational chart showing vaginal health and flora balance is displayed next to a stethoscope.
-  Lighting: Bright natural daylight, clean shadows.
-  Color Palette: Soft Lavender (#9675aa), Deep Purple (#633184) details, clean white desk surface.
-  Composition: Top-down still life layout.
-  Mood: Educational, professional.
-  Suffixes: high-fidelity photography, 8k, photorealistic textures --ar 16:9 --v 6.0
-  Negative Prompt: people, hand, watermark, signature, text, words, vaginal discharge.
+  A close-up of a woman sitting on the toilet looking down at a tissue paper in her hand with a worried and focused expression, discovering a change in her body's natural balance. The scene is shot from a respectful, non-graphic angle, conveying intimate awareness.
+  Lighting: Soft, clean bathroom lighting.
+  Color Palette: Soft lavender and clean whites, warm skin tones, gentle shadows.
+  Composition: Focused close-up, shallow depth of field.
+  Mood: Concerned, intimate, realistic.
+  Suffixes: high-fidelity clinical photography, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: graphic fluids, nudity, scary, blood, cartoon, 3d render, watermark, signature.
   ```
 
-### `dificultad-concebir.webp`
+### `a.webp`
 * **Síntoma:** Dificultad para Concebir  
 * **Prompt:**
   ```
-  A professional close-up of a premium clinical tablet screen showing a detailed reproductive biology diagram of fertilization. A stethoscope and a pen are resting on the side.
-  Lighting: Soft, clean clinical lighting.
-  Color Palette: Clean whites, Slate Violet (#8c82bd), Deep Purple (#633184) screen hues.
-  Composition: Focused product macro shot of the medical tablet.
-  Mood: Professional, reassuring.
+  A close-up photograph of a woman's hands holding a negative pregnancy test (showing a single clean line), resting her hands on her lap. In the background, her partner sits next to her on the bed, offering a comforting arm. The image conveys the quiet grief and hope of trying to conceive.
+  Lighting: Soft, warm, indirect bedroom lighting.
+  Color Palette: Warm whites, Soft Lavender (#9675aa) blankets, natural skin tones.
+  Composition: Macro shot of the hands holding the test, shallow depth of field.
+  Mood: Sad, hopeful, emotional, intimate.
   Suffixes: high-fidelity clinical photography, 8k, photorealistic textures --ar 16:9 --v 6.0
-  Negative Prompt: people, doctors, hands, cartoon, 3d render.
+  Negative Prompt: cartoon, 3d render, watermark, signature, smiling, text.
   ```
 
 ---
@@ -412,11 +418,11 @@ Negative Prompt: hologram, sci-fi, futuristic, spaceship, cyberpunk, neon, glowi
 | **Servicios** | `/public/images/services/histeroscopia.webp` | Cirugía Ginecológica de Mínima Invasión |
 | **Síntomas** | `/public/images/symptoms/sangrado.webp` | Sangrado Uterino Anormal |
 | **Síntomas** | `/public/images/symptoms/dolor-pelvico.webp` | Dolor Pélvico y Menstrual |
-| **Síntomas** | `/public/images/symptoms/urgencias-embarazo.webp` | Sangrado y Urgencias en el Embarazo |
+| **Síntomas** | `/public/images/symptoms/dolor-coito.webp` | Dolor en las Relaciones Sexuales (Dispareunia) |
 | **Síntomas** | `/public/images/symptoms/verrugas-genitales.webp` | Verrugas Genitales y Lesiones por VPH |
 | **Síntomas** | `/public/images/symptoms/infeccion-vaginal.webp` | Infecciones Vaginales Recurrentes |
 | **Síntomas** | `/public/images/symptoms/amenaza-aborto.webp` | Amenaza de Aborto |
-| **Síntomas** | `/public/images/symptoms/sangrado-inicio-menstruacion.webp` | Sangrado Abundante al Inicio de la Menstruación |
+| **Síntomas** | `/public/images/symptoms/bochornos.webp` | Bochornos y Sudoración Nocturna |
 | **Síntomas** | `/public/images/symptoms/amenorrea.webp` | Ausencia de Menstruación (Amenorrea) |
 | **Síntomas** | `/public/images/symptoms/flujo-vaginal.webp` | Flujo Vaginal Anormal |
 | **Síntomas** | `/public/images/symptoms/dificultad-concebir.webp` | Dificultad para Concebir |

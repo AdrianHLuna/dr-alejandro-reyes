@@ -26,7 +26,7 @@ export const services: MedicalService[] = [
       "Equipo": "Ultrasonido en consultorio con sonda transabdominal/transvaginal",
       "Frecuencia recomendada": "Cada 4 semanas durante el embarazo"
     },
-    image: "/images/services/control-prenatal.webp",
+    image: "/procedimientos/control-prenatal.png",
     seo: {
       title: "Consulta Obstétrica con Ultrasonido Ixtlahuaca | Dr. Jose Alejandro",
       description: "Consulta y rastreo de ultrasonido de embarazo en Ixtlahuaca con el ginecólogo Dr. Jose Alejandro Reyes Torres. Costo: $600 MXN.",
@@ -58,7 +58,7 @@ export const services: MedicalService[] = [
       "Indicación": "Mujeres con periodos irregulares, bochornos, o en etapa de menopausia",
       "Enfoque": "Ginecología endocrina y clínica del climaterio"
     },
-    image: "/images/services/menopausia.webp",
+    image: "/procedimientos/menopausia.png",
     seo: {
       title: "Ginecología Endocrina y Menopausia Ixtlahuaca | Dr. Jose Alejandro",
       description: "Consulta de ginecología endocrina, menopausia y trastornos menstruales en Ixtlahuaca con el Dr. Jose Alejandro Reyes Torres. Costo: $600 MXN.",
@@ -90,7 +90,7 @@ export const services: MedicalService[] = [
       "Estudio": "Colposcopia diagnóstica directa con aplicación de ácido acético y lugol",
       "Equipo": "Colposcopio binocular de alta definición"
     },
-    image: "/images/services/colposcopia.webp",
+    image: "/procedimientos/colposcopia.png",
     seo: {
       title: "Colposcopia y Papanicolaou en Ixtlahuaca | Dr. Jose Alejandro",
       description: "Consulta para detección de VPH, citología y colposcopia en Ixtlahuaca con el ginecólogo Dr. Jose Alejandro Reyes Torres. Costo: $700 MXN.",
@@ -122,7 +122,7 @@ export const services: MedicalService[] = [
       "Indicación": "Parejas con más de 12 meses buscando embarazo (o 6 meses si la mujer tiene más de 35 años)",
       "Subespecialidad": "Biología de la Reproducción Humana (UNAM / CMGO)"
     },
-    image: "/images/services/fertilidad.webp",
+    image: "/procedimientos/fertilidad.png",
     seo: {
       title: "Consulta de Fertilidad e Infertilidad Ixtlahuaca | Dr. Jose Alejandro",
       description: "Estudio integral de fertilidad en pareja con el biólogo de la reproducción Dr. Jose Alejandro Reyes Torres en Ixtlahuaca. Costo: $1,500 MXN.",
@@ -154,7 +154,7 @@ export const services: MedicalService[] = [
       "Dispositivo": "Ultrasonido estructural y Doppler fetal en consultorio",
       "Criterio de riesgo": "Antecedentes de pérdida gestacional, diabetes, hipertensión o edad > 35 años"
     },
-    image: "/images/services/control-prenatal-alto-riesgo.webp",
+    image: "/procedimientos/control-prenatal-alto-riesgo.png",
     seo: {
       title: "Control Prenatal de Alto Riesgo Ixtlahuaca | Dr. Jose Alejandro",
       description: "Vigilancia de embarazo de alto riesgo con el Dr. Jose Alejandro Reyes Torres en Ixtlahuaca. Prevención de preeclampsia y diabetes gestacional.",
@@ -186,7 +186,7 @@ export const services: MedicalService[] = [
       "Ubicaciones": "Hospitales certificados en el Estado de México",
       "Servicio": "Asistencia de urgencias de embarazo y nacimiento"
     },
-    image: "/images/services/parto-cesarea.webp",
+    image: "/procedimientos/parto-cesarea.png",
     seo: {
       title: "Atención de Parto y Cesárea Ixtlahuaca | Dr. Jose Alejandro Reyes",
       description: "Atención médica personalizada de parto psicoprofiláctico y cesárea por el ginecólogo Dr. Jose Alejandro Reyes Torres.",
@@ -218,7 +218,7 @@ export const services: MedicalService[] = [
       "Técnicas": "Laparoscopia pélvica avanzada e histeroscopia de consultorio/quirófano",
       "Ventaja": "Menor tasa de adherencias postquirúrgicas en comparación con cirugía abierta"
     },
-    image: "/images/services/histeroscopia.webp",
+    image: "/procedimientos/histeroscopia.png",
     seo: {
       title: "Cirugía Laparoscópica Ginecológica | Dr. Jose Alejandro Reyes",
       description: "Cirugía de mínima invasión para miomas, quistes de ovario y permeabilidad tubaria con el Dr. Jose Alejandro Reyes Torres.",

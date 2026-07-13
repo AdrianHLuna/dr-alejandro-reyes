@@ -5,6 +5,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import StructuredData from "@/components/StructuredData";
 import { FaCheckCircle, FaInfoCircle, FaCalendarCheck, FaPhone, FaTasks } from "react-icons/fa";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/Animations";
+import ClinicalImage from "@/components/ClinicalImage";
 
 export async function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
@@ -61,15 +62,27 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
         <Breadcrumbs items={[{ label: "Inicio", href: "/" }, { label: "Servicios", href: "/servicios" }, { label: service.name }]} />
         
-        {/* Header Section */}
-        <FadeUp className="mt-8 mb-16 space-y-6">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-accent/10 border border-accent/20 rounded-full text-xs font-bold text-primary uppercase tracking-wider">
-            <FaInfoCircle className="text-accent" />
-            <span>Servicio Clínico / {service.type}</span>
-          </div>
-          <h1 className="text-4xl lg:text-5xl font-serif-elegant font-bold text-primary leading-none">{service.name}</h1>
-          <p className="text-foreground/80 text-base lg:text-lg font-light max-w-3xl leading-relaxed">{service.longDescription}</p>
-        </FadeUp>
+        {/* Header Section with Image */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mt-8 mb-16">
+          <FadeUp className="lg:col-span-7 space-y-6">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-accent/10 border border-accent/20 rounded-full text-xs font-bold text-primary uppercase tracking-wider">
+              <FaInfoCircle className="text-accent" />
+              <span>Servicio Clínico / {service.type}</span>
+            </div>
+            <h1 className="text-4xl lg:text-5xl font-serif-elegant font-bold text-primary leading-tight">{service.name}</h1>
+            <p className="text-foreground/80 text-base lg:text-lg font-light leading-relaxed">{service.longDescription}</p>
+          </FadeUp>
+          
+          <FadeUp className="lg:col-span-5">
+            <div className="aspect-[16/10] w-full rounded-[2rem] overflow-hidden border border-border/80 shadow-lg bg-primary/5">
+              <ClinicalImage 
+                src={service.image} 
+                alt={service.name} 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </FadeUp>
+        </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start max-w-6xl mx-auto">
           

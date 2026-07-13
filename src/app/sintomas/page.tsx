@@ -4,6 +4,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/Animations";
 import { FaExclamationTriangle } from "react-icons/fa";
 import { doctor } from "@/data/doctor";
+import ClinicalImage from "@/components/ClinicalImage";
 
 export const metadata = {
   title: `Síntomas de Alerta Ginecológica y Reproductiva | ${doctor.title} ${doctor.name}`,
@@ -62,6 +63,13 @@ export default function SintomasPage() {
                         <FaExclamationTriangle size={18} />
                       </div>
                       <span className="text-[10px] font-mono text-muted/60">SÍNTOMA 0{index + 1}</span>
+                    </div>
+                    <div className="w-full aspect-[16/10] relative rounded-[1.5rem] overflow-hidden bg-primary/5 border border-border/50">
+                      <ClinicalImage 
+                        src={sym.image} 
+                        alt={sym.name}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
                     </div>
                     <h2 className="text-2xl font-serif-elegant font-bold text-primary group-hover:text-accent transition-colors duration-300">{sym.name}</h2>
                     <p className="text-muted text-sm font-light leading-relaxed line-clamp-4">{sym.description}</p>

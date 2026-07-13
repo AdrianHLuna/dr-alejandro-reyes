@@ -3,6 +3,7 @@ import { services } from "@/data/services";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/Animations";
 import { doctor } from "@/data/doctor";
+import ClinicalImage from "@/components/ClinicalImage";
 
 export const metadata = {
   title: `Servicios Clínicos y Estudios de Especialidad | ${doctor.title} ${doctor.name}`,
@@ -57,6 +58,13 @@ export default function ServiciosPage() {
                   href={`/servicios/${service.slug}`} 
                   className={`flex flex-col ${alignmentClass} gap-6 bg-white border border-border/80 p-8 lg:p-10 rounded-[2.5rem] hover:shadow-xl hover:border-accent/30 transition-all duration-500 group`}
                 >
+                  <div className="w-full md:w-64 aspect-[16/10] relative rounded-[2rem] overflow-hidden bg-primary/5 border border-border/50 flex-shrink-0">
+                    <ClinicalImage 
+                      src={service.image} 
+                      alt={service.name}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
                   <div className="flex-1 space-y-4">
                     <div className="flex justify-between items-center border-b border-border/50 pb-3">
                       <span className="text-[10px] font-mono text-accent uppercase tracking-wider block">{service.type}</span>

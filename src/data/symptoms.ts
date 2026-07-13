@@ -13,7 +13,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Debes consultar de inmediato si el sangrado menstrual es tan abundante que empapa una o más toallas sanitarias por hora durante varias horas consecutivas, si presentas debilidad extrema o mareos, o si experimentas sangrado después de la menopausia.",
     relatedConditions: ["miomatosis-uterina", "trastornos-de-la-menstruacion", "sindrome-de-ovario-poliquistico"],
-    image: "/images/symptoms/sangrado.webp",
+    image: "/sintomas/sangrado.png",
     seo: {
       title: "Sangrado Menstrual Abundante Ixtlahuaca | Dr. Jose Alejandro",
       description: "Diagnóstico y tratamiento del sangrado uterino abundante o irregular en Ixtlahuaca con el Dr. Jose Alejandro Reyes Torres.",
@@ -32,7 +32,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Se recomienda acudir a consulta si el dolor menstrual es incapacitante (te impide realizar actividades diarias), si no cede con analgésicos comunes, o si presentas dolor pélvico súbito y muy severo acompañado de fiebre.",
     relatedConditions: ["endometriosis-pelvica", "miomatosis-uterina"],
-    image: "/images/symptoms/dolor-pelvico.webp",
+    image: "/sintomas/dolor-pelvico.png",
     seo: {
       title: "Tratamiento de Dolor Pélvico en Ixtlahuaca | Dr. Jose Alejandro",
       description: "Valoración de dolor pélvico persistente, dismenorrea y sospecha de endometriosis con el Dr. Jose Alejandro Reyes Torres.",
@@ -41,21 +41,21 @@ export const symptoms: Symptom[] = [
   },
   {
     id: "sym-003",
-    slug: "embarazo-de-urgencia-sangrados",
-    name: "Sangrado y Urgencias en el Embarazo",
-    description: "Presencia de sangrado vaginal, cólicos intensos o pérdida de líquido durante cualquier etapa de la gestación.",
+    slug: "dolor-relaciones-sexuales",
+    name: "Dolor en las Relaciones Sexuales (Dispareunia)",
+    description: "Presencia de dolor o molestia persistente en la zona vaginal o pélvica durante o después del coito, afectando la calidad de vida y la salud íntima.",
     causes: [
-      "Amenaza de aborto en el primer trimestre",
-      "Implantación embrionaria o desprendimiento coriodecidual",
-      "Infecciones de vías urinarias o del tracto genital durante el embarazo"
+      "Endometriosis pélvica u ovárica",
+      "Infecciones vaginales o inflamación pélvica crónica",
+      "Resequedad vaginal o atrofia urogenital asociada a la menopausia"
     ],
-    whyConsult: "Cualquier sangrado o dolor tipo cólico en el vientre durante el embarazo es un dato de alarma. Debes recibir una valoración médica por ultrasonido de inmediato para corroborar la vitalidad del bebé y prevenir complicaciones.",
-    relatedConditions: ["infertilidad-de-la-pareja"],
-    image: "/images/symptoms/urgencias-embarazo.webp",
+    whyConsult: "El dolor durante las relaciones sexuales no es normal. Requiere una revisión ginecológica cuidadosa con ultrasonido para descartar endometriosis, miomatosis u otras alteraciones anatómicas o infecciosas y restaurar tu bienestar íntimo.",
+    relatedConditions: ["endometriosis-pelvica", "menopausia-y-climaterio"],
+    image: "/sintomas/dolor-coito.png",
     seo: {
-      title: "Sangrado en el Embarazo Ixtlahuaca | Urgencias 24/7",
-      description: "Atención de urgencias obstétricas y sangrado en el embarazo en Ixtlahuaca con el Dr. Jose Alejandro Reyes Torres. Teléfono de urgencias: 7121602969.",
-      keywords: ["Sangrado en el embarazo primer trimestre", "Amenaza de aborto síntomas", "Urgencias obstétricas Ixtlahuaca"],
+      title: "Tratamiento de Dispareunia en Ixtlahuaca | Dolor Coito",
+      description: "Diagnóstico y tratamiento para el dolor durante las relaciones sexuales (dispareunia) en Ixtlahuaca con el Dr. Jose Alejandro Reyes Torres.",
+      keywords: ["Dolor en las relaciones sexuales ginecólogo", "Causas de dispareunia", "Tratamiento dispareunia Estado de México"],
     }
   },
   {
@@ -69,7 +69,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Es importante acudir a valoración si detectas cualquier lesión o protuberancia inusual en tu zona íntima. El Dr. Jose Alejandro Reyes Torres realiza colposcopia avanzada para descartar lesiones cervicales asociadas y eliminarlas clínicamente.",
     relatedConditions: ["trastornos-de-la-menstruacion"], // No directamente relacionadas pero enlazadas
-    image: "/images/symptoms/verrugas-genitales.webp",
+    image: "/sintomas/verrugas-genitales.png",
     seo: {
       title: "Tratamiento de Verrugas Genitales VPH Ixtlahuaca | Ginecólogo",
       description: "Diagnóstico de VPH y eliminación de verrugas genitales en consultorio con el Dr. Jose Alejandro Reyes Torres. Consulta: $700 MXN.",
@@ -88,7 +88,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Debes acudir a consulta si las infecciones son frecuentes (más de 4 episodios al año), si el flujo es espeso o maloliente, o si presentas dolor severo al tener relaciones sexuales, para recibir un tratamiento específico y evitar resistencias bacterianas.",
     relatedConditions: ["trastornos-de-la-menstruacion"],
-    image: "/images/symptoms/infeccion-vaginal.webp",
+    image: "/sintomas/infeccion-vaginal.png",
     seo: {
       title: "Infecciones Vaginales Tratamiento Ixtlahuaca | Ginecólogo",
       description: "Tratamiento definitivo para infecciones vaginales de repetición y flujo inusual con el Dr. Jose Alejandro Reyes Torres en Ixtlahuaca.",
@@ -107,7 +107,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Debes acudir a consulta de urgencia de inmediato si estás embarazada y presentas manchado o sangrado vaginal, cólicos persistentes en el vientre bajo, o dolor lumbar intenso.",
     relatedConditions: ["infertilidad-de-la-pareja"],
-    image: "/images/symptoms/amenaza-aborto.webp",
+    image: "/sintomas/amenaza-aborto.png",
     seo: {
       title: "Amenaza de Aborto y Sangrado Ixtlahuaca | Dr. Jose Alejandro",
       description: "Diagnóstico por ultrasonido y manejo médico para amenaza de aborto con el ginecólogo Dr. Jose Alejandro Reyes Torres en Ixtlahuaca.",
@@ -116,21 +116,21 @@ export const symptoms: Symptom[] = [
   },
   {
     id: "sym-007",
-    slug: "sangrado-inicio-menstruacion",
-    name: "Sangrado Abundante al Inicio de la Menstruación",
-    description: "Pérdida excesiva de sangre que se presenta durante los primeros días del periodo menstrual en adolescentes o mujeres jóvenes, a menudo relacionada con ciclos anovulatorios iniciales o desequilibrios hormonales.",
+    slug: "bochornos-sudoracion-nocturna",
+    name: "Bochornos y Sudoración Nocturna",
+    description: "Sensación repentina de calor extremo, principalmente en el rostro, cuello y pecho, acompañada de sudoración profusa e insomnio, común en la transición a la menopausia.",
     causes: [
-      "Inmadurez del eje hormonal regulador",
-      "Ciclos sin ovulación (anovulatorios)",
-      "Trastornos endocrinos subyacentes como hipotiroidismo o SOP"
+      "Disminución natural en la producción de estrógenos",
+      "Transición climatérica (perimenopausia y menopausia)",
+      "Alteración del centro termorregulador en el hipotálamo"
     ],
-    whyConsult: "Es fundamental consultar si el sangrado dura más de 7 días, si requiere el cambio de toallas sanitarias cada hora por más de 2 horas seguidas, o si provoca cansancio extremo, palidez o mareos.",
-    relatedConditions: ["trastornos-de-la-menstruacion", "sindrome-de-ovario-poliquistico", "pubertad-y-menarquia"],
-    image: "/images/symptoms/sangrado-inicio-menstruacion.webp",
+    whyConsult: "Si los bochornos y la sudoración nocturna interfieren con tu sueño, te causan fatiga constante o afectan tu calidad de vida, un ginecólogo especialista en climaterio puede indicarte terapias de reemplazo hormonal personalizadas y seguras para restablecer tu descanso y vitalidad.",
+    relatedConditions: ["menopausia-y-climaterio"],
+    image: "/sintomas/bochornos.png",
     seo: {
-      title: "Menstruación Abundante en Adolescentes | Dr. Jose Alejandro",
-      description: "Valoración y tratamiento ginecológico del sangrado menstrual abundante e irregular en adolescentes con el Dr. Jose Alejandro Reyes Torres en Ixtlahuaca.",
-      keywords: ["Menstruación abundante adolescentes", "Primera regla abundante causas", "Sangrado menstrual severo joven"],
+      title: "Tratamiento de Bochornos y Sofocos en Ixtlahuaca | Menopausia",
+      description: "Tratamiento ginecológico integral para aliviar bochornos, sofocos y sudoración nocturna con el Dr. Jose Alejandro Reyes Torres.",
+      keywords: ["Tratamiento de bochornos menopausia", "Sofocos nocturnos ginecólogo", "Terapia de reemplazo hormonal costo"],
     }
   },
   {
@@ -145,7 +145,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Debes acudir a valoración si tienes 15 años y no has iniciado tu menstruación, o si tus reglas se suspenden por más de 90 días seguidos descartando previamente un embarazo.",
     relatedConditions: ["trastornos-de-la-menstruacion", "anovulacion", "sindrome-de-ovario-poliquistico", "pubertad-y-menarquia"],
-    image: "/images/symptoms/amenorrea.webp",
+    image: "/sintomas/amenorrea.png",
     seo: {
       title: "Ausencia de Menstruación (Amenorrea) | Dr. Jose Alejandro",
       description: "Diagnóstico de causas de falta de menstruación o amenorrea en Ixtlahuaca con el ginecólogo subespecialista Dr. Jose Alejandro Reyes Torres.",
@@ -164,7 +164,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Consulta si tu flujo cambia a color verde, amarillo o gris, tiene olor desagradable, se acompaña de dolor pélvico o ardor al orinar, o si no mejora con tratamientos previos.",
     relatedConditions: ["infecciones-vaginales"],
-    image: "/images/symptoms/flujo-vaginal.webp",
+    image: "/sintomas/flujo-vaginal.png",
     seo: {
       title: "Flujo Vaginal Anormal Tratamiento | Dr. Jose Alejandro",
       description: "Consulta ginecológica para el diagnóstico y tratamiento de flujo vaginal inusual, infecciones y ardor íntimo en Ixtlahuaca.",
@@ -183,7 +183,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Se aconseja valoración especializada si llevan 1 año intentando concebir sin éxito, o a los 6 meses si la mujer tiene 35 años o más o presenta antecedentes de cirugías pélvicas, SOP o endometriosis.",
     relatedConditions: ["infertilidad-de-la-pareja", "anovulacion", "sindrome-de-ovario-poliquistico", "endometriosis-pelvica"],
-    image: "/images/symptoms/dificultad-concebir.webp",
+    image: "/sintomas/dificultad-concebir.png",
     seo: {
       title: "Dificultad para Embarazarse Ixtlahuaca | Dr. Jose Alejandro",
       description: "Consulta de fertilidad y diagnóstico integral de infertilidad con el biólogo de la reproducción Dr. Jose Alejandro Reyes Torres en Ixtlahuaca.",

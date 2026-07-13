@@ -301,7 +301,7 @@ export default function Home() {
             className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto"
             initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={staggerContainer}
           >
-            {diseases.map((disease, idx) => {
+            {diseases.slice(0, 5).map((disease, idx) => {
               const cardShape = idx % 2 === 0
                 ? "organic-card"
                 : "border border-border bg-white rounded-[2rem_2rem_1rem_1rem] hover:rounded-[1rem_1rem_2rem_2rem] hover:shadow-xl hover:border-accent/30 transition-all duration-500";
@@ -363,7 +363,7 @@ export default function Home() {
             className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto"
             initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={staggerContainer}
           >
-            {services.map((service, idx) => {
+            {services.slice(0, 5).map((service, idx) => {
               const staggerClass = idx === 1 ? "md:translate-y-6" : ""; // Height stagger to break grid symmetry
               const cardShape = idx % 2 === 0
                 ? "border border-border bg-white rounded-[1rem_3rem_1rem_3rem] hover:rounded-[3rem_1rem_3rem_1rem] hover:shadow-xl hover:border-accent/30 transition-all duration-500"
@@ -376,6 +376,13 @@ export default function Home() {
                     className={`flex flex-col justify-between h-full group p-8 ${cardShape}`}
                   >
                     <div className="space-y-4">
+                      <div className="w-full aspect-[16/10] relative rounded-[1.5rem] overflow-hidden bg-primary/5 border border-border/50">
+                        <ClinicalImage 
+                          src={service.image} 
+                          alt={service.name}
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                      </div>
                       <div className="flex items-center justify-between">
                         <span className="text-[9px] font-bold text-primary uppercase tracking-widest border border-primary/20 px-2.5 py-0.5 rounded-full">{service.type}</span>
                       </div>
@@ -416,7 +423,7 @@ export default function Home() {
             className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto"
             initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={staggerContainer}
           >
-            {symptoms.map((sym, idx) => {
+            {symptoms.slice(0, 5).map((sym, idx) => {
               const cardShape = idx % 2 === 0
                 ? "organic-card"
                 : "border border-border bg-white rounded-[1rem_1rem_3rem_3rem] hover:rounded-[3rem_3rem_1rem_1rem] hover:shadow-xl hover:border-accent/30 transition-all duration-500";
@@ -428,6 +435,13 @@ export default function Home() {
                     className={`flex flex-col justify-between h-full p-8 group ${cardShape}`}
                   >
                     <div className="space-y-4">
+                      <div className="w-full aspect-[16/10] relative rounded-[1.5rem] overflow-hidden bg-primary/5 border border-border/50">
+                        <ClinicalImage 
+                          src={sym.image} 
+                          alt={sym.name}
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                      </div>
                       <span className="text-[9px] font-mono text-accent font-bold uppercase tracking-widest block">Síntoma Crítico</span>
                       <h3 className="text-lg font-serif-elegant font-bold text-foreground group-hover:text-primary transition-colors duration-300">{sym.name}</h3>
                       <p className="text-muted text-xs font-light leading-relaxed line-clamp-3">{sym.description}</p>
