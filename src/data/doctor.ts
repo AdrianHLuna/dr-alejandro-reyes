@@ -17,7 +17,7 @@ export const doctor: DoctorProfile = {
   state: "Estado de México",
   country: "México",
   googleMapsUrl: "https://maps.google.com/?q=Av.+Gustavo+Baz+400,+Centro,+Ixtlahuaca+de+Ray%C3%B3n",
-  consultationPrice: 600,
+  consultationPrice: 700,
   paymentMethods: ["Efectivo", "Transferencia", "Tarjeta de Débito", "Tarjeta de Crédito"],
   insurances: ["GNP", "AXA", "MetLife", "Mapfre", "Seguros Monterrey", "Bupa"], // Seguros a consultar
   schedule: "Lunes, Miércoles, Viernes: 7:00 - 13:00 | Martes, Jueves: 15:30 - 21:00 | Sábado: 8:00 - 19:00 | Domingo: 9:00 - 15:00",

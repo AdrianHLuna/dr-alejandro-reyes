@@ -16,7 +16,7 @@ export default function Header() {
         <div className="flex gap-2">
           <span>ced. prof: {doctor.cedula} (UNAM)</span>
           <span>|</span>
-          <span>ced. esp: {doctor.cedulaEspecialidad} (INPer)</span>
+          <span>ced. esp: {doctor.cedulaEspecialidad} (UAEMEX)</span>
         </div>
         <div>
           <span>COFEPRIS: {doctor.cofepris}</span>
@@ -90,7 +90,7 @@ export default function Header() {
             {/* Display Credentials in Mobile Drawer too for completeness */}
             <div className="mt-4 pt-4 border-t border-border/60 text-[9px] font-mono text-muted space-y-1">
               <p>ced. prof: {doctor.cedula} (UNAM)</p>
-              <p>ced. esp: {doctor.cedulaEspecialidad} (INPer)</p>
+              <p>ced. esp: {doctor.cedulaEspecialidad} (UAEMEX)</p>
               <p>COFEPRIS: {doctor.cofepris}</p>
             </div>
           </div>

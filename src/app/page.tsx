@@ -241,7 +241,7 @@ export default function Home() {
             {/* Right Col: Bio Content */}
             <div className="lg:w-3/5 flex flex-col justify-center space-y-8">
               <motion.div variants={fadeUp} className="space-y-3">
-                <span className="text-xs font-bold text-primary uppercase tracking-widest">Sobre la Especialista</span>
+                <span className="text-xs font-bold text-primary uppercase tracking-widest">Sobre el Especialista</span>
                 <h2 className="text-3xl lg:text-4xl font-serif-elegant font-bold text-foreground">Dr. Jose Alejandro Reyes Torres</h2>
               </motion.div>
               

@@ -21,7 +21,7 @@ export const services: MedicalService[] = [
       "Acudir con ropa cómoda de dos piezas.",
       "Traer cartilla prenatal anterior o estudios previos en caso de contar con ellos."
     ],
-    priceRange: "$600 MXN",
+    priceRange: "$700 MXN",
     technicalSpecs: {
       "Equipo": "Ultrasonido en consultorio con sonda transabdominal/transvaginal",
       "Frecuencia recomendada": "Cada 4 semanas durante el embarazo"
@@ -29,7 +29,7 @@ export const services: MedicalService[] = [
     image: "/procedimientos/control-prenatal.png",
     seo: {
       title: "Consulta Obstétrica con Ultrasonido Ixtlahuaca | Dr. Jose Alejandro",
-      description: "Consulta y rastreo de ultrasonido de embarazo en Ixtlahuaca con el ginecólogo Dr. Jose Alejandro Reyes Torres. Costo: $600 MXN.",
+      description: "Consulta y rastreo de ultrasonido de embarazo en Ixtlahuaca con el ginecólogo Dr. Jose Alejandro Reyes Torres. Costo: $700 MXN.",
       keywords: ["Consulta de embarazo costo", "Ultrasonido de embarazo Ixtlahuaca", "Control prenatal costo Estado de México"],
     }
   },
@@ -53,7 +53,7 @@ export const services: MedicalService[] = [
       "Llevar un registro de las fechas de las últimas menstruaciones.",
       "Traer perfiles hormonales previos si se cuenta con ellos."
     ],
-    priceRange: "$600 MXN",
+    priceRange: "$700 MXN",
     technicalSpecs: {
       "Indicación": "Mujeres con periodos irregulares, bochornos, o en etapa de menopausia",
       "Enfoque": "Ginecología endocrina y clínica del climaterio"
@@ -61,7 +61,7 @@ export const services: MedicalService[] = [
     image: "/procedimientos/menopausia.png",
     seo: {
       title: "Ginecología Endocrina y Menopausia Ixtlahuaca | Dr. Jose Alejandro",
-      description: "Consulta de ginecología endocrina, menopausia y trastornos menstruales en Ixtlahuaca con el Dr. Jose Alejandro Reyes Torres. Costo: $600 MXN.",
+      description: "Consulta de ginecología endocrina, menopausia y trastornos menstruales en Ixtlahuaca con el Dr. Jose Alejandro Reyes Torres. Costo: $700 MXN.",
       keywords: ["Consulta de menopausia costo", "Trastornos menstruales ginecólogo", "Terapia de reemplazo hormonal Ixtlahuaca"],
     }
   },
@@ -149,7 +149,7 @@ export const services: MedicalService[] = [
       "Mantener un registro domiciliario de presión arterial y glucosa si se le indica.",
       "Acudir de inmediato ante datos de alarma (sangrado, dolor abdominal, pérdida de líquido)."
     ],
-    priceRange: "$600 MXN por sesión",
+    priceRange: "$700 MXN por sesión",
     technicalSpecs: {
       "Dispositivo": "Ultrasonido estructural y Doppler fetal en consultorio",
       "Criterio de riesgo": "Antecedentes de pérdida gestacional, diabetes, hipertensión o edad > 35 años"
