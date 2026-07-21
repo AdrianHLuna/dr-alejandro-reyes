@@ -7,6 +7,7 @@ import { diseases } from "@/data/diseases";
 import { FaCalendarCheck, FaWhatsapp, FaUniversity, FaCertificate, FaNotesMedical, FaMoneyBillWave, FaExchangeAlt, FaCreditCard, FaShieldAlt, FaCheckCircle, FaStar } from "react-icons/fa";
 import StructuredData from "@/components/StructuredData";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import ClinicalImage from "@/components/ClinicalImage";
@@ -150,35 +151,33 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.1 }}
             >
               {/* Organic circular frames with slow float */}
-              <div className="w-[300px] h-[300px] lg:w-[420px] lg:h-[420px] rounded-full border border-primary/10 flex items-center justify-center relative animate-float-slow">
-                <div className="absolute inset-4 rounded-full border border-accent/20 animate-pulse-delicate" />
-                <div className="absolute inset-8 rounded-full bg-warm-light/80 backdrop-blur-md flex items-center justify-center overflow-hidden border border-border">
-                  <div className="absolute inset-0 bg-primary/5 flex flex-col items-center justify-center p-8 text-center select-none">
-                    <div className="w-16 h-16 rounded-full bg-white/40 flex items-center justify-center border border-accent/10 mb-4 animate-float-slow">
-                      <FaStar className="text-accent text-2xl" />
-                    </div>
-                    <p className="font-serif-elegant text-primary text-2xl font-bold leading-tight">
-                      Dr. Alejandro Reyes
-                    </p>
-                    <p className="text-[9px] text-muted font-bold uppercase tracking-widest mt-2">
-                      UNAM Subespecialista
-                    </p>
-                  </div>
+              <div className="w-[360px] h-[360px] sm:w-[500px] sm:h-[500px] lg:w-[620px] lg:h-[620px] xl:w-[680px] xl:h-[680px] rounded-full border border-primary/10 flex items-center justify-center relative animate-float-slow">
+                <div className="absolute inset-5 rounded-full border border-accent/20 animate-pulse-delicate" />
+                <div className="absolute inset-10 rounded-full bg-warm-light flex items-center justify-center overflow-hidden border border-border shadow-2xl">
+                  <Image
+                    src="/hero.jpg"
+                    alt={`${doctor.title} ${doctor.name}`}
+                    width={900}
+                    height={900}
+                    quality={95}
+                    priority
+                    className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
+                  />
                 </div>
               </div>
 
               {/* Floating clinic badge */}
               <motion.div 
-                className="absolute bottom-4 -left-4 bg-white/95 backdrop-blur-md py-4 px-5 rounded-[2rem] border border-border shadow-xl flex items-center gap-3 hover:scale-105 transition-all duration-300"
+                className="absolute bottom-6 left-0 sm:left-4 bg-white/95 backdrop-blur-md py-4 px-6 rounded-[2rem] border border-border shadow-xl flex items-center gap-3.5 hover:scale-105 transition-all duration-300 z-20"
                 animate={{ y: [0, -10, 0] }}
                 transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
               >
-                <div className="w-9 h-9 bg-primary/10 rounded-full flex items-center justify-center text-primary">
-                  <FaStar size={16} />
+                <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                  <FaStar size={18} />
                 </div>
                 <div className="text-left">
-                  <p className="text-[9px] font-bold text-muted uppercase tracking-widest leading-none">Certificada por el</p>
-                  <p className="font-serif-elegant font-bold text-primary text-sm mt-0.5">CMGO</p>
+                  <p className="text-[10px] font-bold text-muted uppercase tracking-widest leading-none">Certificada por el</p>
+                  <p className="font-serif-elegant font-bold text-primary text-base mt-0.5">CMGO</p>
                 </div>
               </motion.div>
             </motion.div>
@@ -221,19 +220,16 @@ export default function Home() {
           >
             {/* Left Col: Photo Frame with Organic Layout */}
             <motion.div className="lg:w-2/5 space-y-8" variants={fadeUp}>
-              <div className="aspect-[4/5] bg-white border border-border p-5 rounded-[3rem_1rem_3rem_1rem] shadow-sm flex items-center justify-center relative overflow-hidden group hover:rounded-[1rem_3rem_1rem_3rem] hover:border-accent/35 transition-all duration-700">
-                <div className="absolute inset-0 bg-warm-light/40 flex flex-col items-center justify-center p-8 text-center border border-border/50 rounded-[2.5rem_0.8rem_2.5rem_0.8rem] group-hover:rounded-[0.8rem_2.5rem_0.8rem_2.5rem] transition-all duration-700">
-                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-6 animate-float-slow">
-                    <FaNotesMedical size={28} />
-                  </div>
-                  <h3 className="font-serif-elegant font-bold text-2xl text-primary mb-2">Dr. Alejandro Reyes</h3>
-                  <p className="text-[10px] uppercase tracking-widest text-accent font-semibold mb-6">Ginecólogo y Obstetra</p>
-                  
-                  <div className="w-full border-t border-border/60 pt-6 space-y-4 text-left text-xs font-light text-muted">
-                    <p className="flex items-center gap-3"><span className="w-1.5 h-1.5 rounded-full bg-accent" /> Egresado de la UNAM</p>
-                    <p className="flex items-center gap-3"><span className="w-1.5 h-1.5 rounded-full bg-accent" /> Subespecialidad en la UNAM</p>
-                    <p className="flex items-center gap-3"><span className="w-1.5 h-1.5 rounded-full bg-accent" /> Consultorio Ixtlahuaca</p>
-                  </div>
+              <div className="aspect-[4/5] bg-white border border-border p-3 rounded-[3rem_1rem_3rem_1rem] shadow-lg relative overflow-hidden group hover:rounded-[1rem_3rem_1rem_3rem] hover:border-accent/35 transition-all duration-700">
+                <div className="w-full h-full rounded-[2.5rem_0.8rem_2.5rem_0.8rem] group-hover:rounded-[0.8rem_2.5rem_0.8rem_2.5rem] overflow-hidden transition-all duration-700 relative">
+                  <Image
+                    src="/aboutme.jpg"
+                    alt={`${doctor.title} ${doctor.name}`}
+                    width={600}
+                    height={750}
+                    quality={92}
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                  />
                 </div>
               </div>
             </motion.div>

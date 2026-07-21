@@ -21,7 +21,7 @@ export const doctor: DoctorProfile = {
   paymentMethods: ["Efectivo", "Transferencia", "Tarjeta de Débito", "Tarjeta de Crédito"],
   insurances: ["GNP", "AXA", "MetLife", "Mapfre", "Seguros Monterrey", "Bupa"], // Seguros a consultar
   schedule: "Lunes, Miércoles, Viernes: 7:00 - 13:00 | Martes, Jueves: 15:30 - 21:00 | Sábado: 8:00 - 19:00 | Domingo: 9:00 - 15:00",
-  photo: "/images/doctor.webp",
+  photo: "/aboutme.jpg",
   bio: "Soy el Dr. Jose Alejandro Reyes Torres, ginecólogo y obstetra egresado de la Universidad Nacional Autónoma de México (UNAM), con especialidad avalada por la Universidad Autónoma del Estado de México (UAEM) y subespecialidad en Biología de la Reproducción Humana por la UNAM. Cuento con alta formación en fertilidad, reproducción asistida, ginecología endocrina y colposcopia. Mi compromiso es brindar una atención médica de primer nivel, ética y de alta precisión científica para ayudar a mis pacientes en el cuidado de su salud reproductiva y el logro del embarazo.",
   philosophy: "El cuidado de la salud reproductiva de la mujer y el anhelo de concebir una nueva vida requieren de una atención médica que combine el máximo rigor científico con una profunda empatía y calidez humana.",
   experience: [
