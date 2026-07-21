@@ -8,6 +8,7 @@ export const doctor: DoctorProfile = {
   subspecialty: "Biología de la Reproducción Humana (Infertilidad, Endocrinología Ginecológica)",
   cedula: "11364693",
   cedulaEspecialidad: "14636386",
+  cedulaSubespecialidad: "15682110",
   cofepris: "En trámite",
   phone: "7121917883",
   whatsapp: "7121917883",

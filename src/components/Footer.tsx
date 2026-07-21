@@ -98,7 +98,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-border pt-8 text-center text-[10px] font-light text-muted space-y-2 font-mono">
-          <p>Cédula Profesional: {doctor.cedula} | Cédula Especialidad: {doctor.cedulaEspecialidad} | COFEPRIS: {doctor.cofepris}</p>
+          <p>
+            Cédula Profesional: {doctor.cedula} | Cédula Especialidad: {doctor.cedulaEspecialidad}
+            {doctor.cedulaSubespecialidad && ` | Cédula Subespecialidad: ${doctor.cedulaSubespecialidad}`} | COFEPRIS: {doctor.cofepris}
+          </p>
           <p>© {new Date().getFullYear()} Todos los derechos reservados. Desarrollado bajo Arquitectura AISO v2.0.</p>
         </div>
       </div>

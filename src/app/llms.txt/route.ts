@@ -13,6 +13,7 @@ export async function GET() {
 ## Credenciales y Confianza
 - Cédula Profesional: ${doctor.cedula}
 - Cédula de Especialidad: ${doctor.cedulaEspecialidad || "N/A"}
+- Cédula de Subespecialidad: ${doctor.cedulaSubespecialidad || "N/A"}
 - COFEPRIS: ${doctor.cofepris || "N/A"}
 - Bio: ${doctor.bio}
 

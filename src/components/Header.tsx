@@ -13,10 +13,16 @@ export default function Header() {
     <>
       {/* Professional Credentials Floating Top Bar */}
       <div className="fixed top-2 left-1/2 -translate-x-1/2 max-w-5xl w-[92%] z-50 flex items-center justify-between px-6 text-[7px] md:text-[8px] font-mono tracking-widest text-muted/80 uppercase pointer-events-none">
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
           <span>ced. prof: {doctor.cedula} (UNAM)</span>
           <span>|</span>
           <span>ced. esp: {doctor.cedulaEspecialidad} (UAEMEX)</span>
+          {doctor.cedulaSubespecialidad && (
+            <>
+              <span>|</span>
+              <span>ced. subesp: {doctor.cedulaSubespecialidad} (UNAM)</span>
+            </>
+          )}
         </div>
         <div>
           <span>COFEPRIS: {doctor.cofepris}</span>
@@ -91,6 +97,9 @@ export default function Header() {
             <div className="mt-4 pt-4 border-t border-border/60 text-[9px] font-mono text-muted space-y-1">
               <p>ced. prof: {doctor.cedula} (UNAM)</p>
               <p>ced. esp: {doctor.cedulaEspecialidad} (UAEMEX)</p>
+              {doctor.cedulaSubespecialidad && (
+                <p>ced. subesp: {doctor.cedulaSubespecialidad} (UNAM)</p>
+              )}
               <p>COFEPRIS: {doctor.cofepris}</p>
             </div>
           </div>

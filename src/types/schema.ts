@@ -60,6 +60,7 @@ export const DoctorProfileSchema = z.object({
  subspecialty: z.string().optional(),
  cedula: z.string().min(5),
  cedulaEspecialidad: z.string().optional(),
+ cedulaSubespecialidad: z.string().optional(),
  cofepris: z.string().optional(),
  phone: z.string(),
  whatsapp: z.string(),
