@@ -16,6 +16,10 @@ export const metadata: Metadata = {
     `Endometriosis`,
     `Miomas uterinos`
   ],
+  icons: {
+    icon: "/images/logo-cropped-07.png",
+    apple: "/images/logo-cropped-07.png",
+  },
   openGraph: {
     title: `${doctor.title} ${doctor.name} | ${doctor.specialty}`,
     description: doctor.bio.substring(0, 150) + "...",
