@@ -9,7 +9,7 @@ export const doctor: DoctorProfile = {
   cedula: "11364693",
   cedulaEspecialidad: "14636386",
   cedulaSubespecialidad: "15682110",
-  cofepris: "En trámite",
+  cofepris: "2615022002A00008",
   phone: "7121917883",
   whatsapp: "7121917883",
   email: "contacto@dralejandroreyestorres.com",
